@@ -50,12 +50,5 @@ module.exports = {
                    return module.context && module.context.indexOf('node_modules') !== -1;
                 }
             }),
-    //         new webpack.optimize.UglifyJsPlugin({
-    //   sourceMap: options.devtool && (options.devtool.indexOf("sourcemap") >= 0 || options.devtool.indexOf("source-map") >= 0)
-    // }),
-    // new webpack.Define
-            // new webpack.optimize.CommonsChunkPlugin({
-            //     name: 'manifest' //But since there are no more common modules between them we end up with just the runtime code included in the manifest file
-            // })
         ]
 };
